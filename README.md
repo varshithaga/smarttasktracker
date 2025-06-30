@@ -10,14 +10,13 @@ smart-task-tracker/
 │  
 ├── backend/               # Django backend  
 │   ├── manage.py  
-│   ├── smarttask/         # Django project folder  
-│   └── tracker/           # App for tasks, projects, and users  
+│   ├── backend/         # Django project folder  
+│   └── core/           # App for tasks, projects, and users  
 │  
 ├── frontend/              # React frontend  
 │   ├── public/  
 │   ├── src/  
-│   │   ├── components/  
-│   │   ├── pages/  
+│   │   ├── components/     # All UI components including Login, Dashboard, etc.  
 │   │   ├── App.js  
 │   │   └── index.js  
 │   ├── package.json  
