@@ -70,6 +70,12 @@ Contributor: Can view assigned tasks and update their status
 
 ---
 
+## 🔐 Roles are auto-assigned based on email during registration:
+- Username containing **admin** (e.g., `abc@admin`) → assigned role: **admin**
+- All other username (e.g., `xyz@contributor`) → assigned role: **contributor**
+  
+---
+
 ## 📦 Tech Stack
 
 Backend: Django, Django REST Framework, Simple JWT  
