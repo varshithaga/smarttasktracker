@@ -36,17 +36,17 @@ python -m venv venv
 venv\Scripts\activate  
 pip install -r requirements.txt  
 
-# In settings.py, configure PostgreSQL:  
-# DATABASES = {  
-#     'default': {  
-#         'ENGINE': 'django.db.backends.postgresql',  
-#         'NAME': 'your_db_name',  
-#         'USER': 'your_db_user',  
-#         'PASSWORD': 'your_db_password',  
-#         'HOST': 'localhost',  
-#         'PORT': '5432',  
-#     }  
-# }  
+## In settings.py, configure PostgreSQL:  
+ DATABASES = {  
+     'default': {  
+         'ENGINE': 'django.db.backends.postgresql',  
+         'NAME': 'your_db_name',  
+         'USER': 'your_db_user',  
+         'PASSWORD': 'your_db_password',  
+         'HOST': 'localhost',  
+         'PORT': '5432',  
+     }  
+ }  
 
 python manage.py makemigrations  
 python manage.py migrate  
