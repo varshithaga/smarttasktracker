@@ -56,17 +56,23 @@ python manage.py runserver
 
 
 
-## 💻 Frontend Setup (React)
+##  💻 Frontend Setup (React)
 
+```bash
 cd frontend
 npm install
 npm start
 
 ## 🔑 Authentication & Roles
+
+```bash
 Admin: Can create/update projects and assign tasks
 Contributor: Can view assigned tasks and update their status
 
+
 ## 📦 Tech Stack
+
+```bash
 Backend: Django, Django REST Framework, Simple JWT
 Frontend: React, Axios, React Router
 Database: PostgreSQL
