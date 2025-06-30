@@ -31,52 +31,50 @@ smart-task-tracker/
 
 ## ⚙️ Backend Setup (Django + PostgreSQL)
 
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+cd backend  
+python -m venv venv  
+venv\Scripts\activate  
+pip install -r requirements.txt  
 
-# In settings.py, configure PostgreSQL:
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'your_db_name',
-#         'USER': 'your_db_user',
-#         'PASSWORD': 'your_db_password',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
-# }
+# In settings.py, configure PostgreSQL:  
+# DATABASES = {  
+#     'default': {  
+#         'ENGINE': 'django.db.backends.postgresql',  
+#         'NAME': 'your_db_name',  
+#         'USER': 'your_db_user',  
+#         'PASSWORD': 'your_db_password',  
+#         'HOST': 'localhost',  
+#         'PORT': '5432',  
+#     }  
+# }  
 
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+python manage.py makemigrations  
+python manage.py migrate  
+python manage.py createsuperuser  
+python manage.py runserver  
 
-```bash
-##  💻 Frontend Setup (React)
+---
 
-```bash
-cd frontend
-npm install
-npm start
-```bash
+## 💻 Frontend Setup (React)
+
+cd frontend  
+npm install  
+npm start  
+
+---
 
 ## 🔑 Authentication & Roles
 
-```bash
-Admin: Can create/update projects and assign tasks
-Contributor: Can view assigned tasks and update their status
+Admin: Can create/update projects and assign tasks  
+Contributor: Can view assigned tasks and update their status  
 
-```bash
+---
 
 ## 📦 Tech Stack
 
-```bash
-Backend: Django, Django REST Framework, Simple JWT
-Frontend: React, Axios, React Router
-Database: PostgreSQL
-```bash
+Backend: Django, Django REST Framework, Simple JWT  
+Frontend: React, Axios, React Router  
+Database: PostgreSQL  
 
+---
 
