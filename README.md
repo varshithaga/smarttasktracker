@@ -65,7 +65,7 @@ npm start
 
 ## 🔑 Authentication & Roles
 
-Admin: Can create/update projects and assign tasks  
+Admin: Can create/update projects and create,update and assign tasks
 Contributor: Can view assigned tasks and update their status  
 
 ---
