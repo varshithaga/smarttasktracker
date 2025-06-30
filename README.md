@@ -54,14 +54,14 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
 
-
-
+```bash
 ##  💻 Frontend Setup (React)
 
 ```bash
 cd frontend
 npm install
 npm start
+```bash
 
 ## 🔑 Authentication & Roles
 
@@ -69,6 +69,7 @@ npm start
 Admin: Can create/update projects and assign tasks
 Contributor: Can view assigned tasks and update their status
 
+```bash
 
 ## 📦 Tech Stack
 
@@ -76,5 +77,6 @@ Contributor: Can view assigned tasks and update their status
 Backend: Django, Django REST Framework, Simple JWT
 Frontend: React, Axios, React Router
 Database: PostgreSQL
+```bash
 
 
